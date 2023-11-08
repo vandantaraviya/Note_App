@@ -1,0 +1,42 @@
+name: note_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  flutter_share:
+  url_launcher:
+  url_launcher_android:
+  flutter_local_notifications:
+  flutter_staggered_animations:
+  google_sign_in:
+  social_share:
+  lottie:
+  rounded_loading_button:
+  firebase_core:
+  firebase_storage:
+  firebase_auth:
+  firebase_database:
+  timezone:
+  flutter_rating_bar:
+  connectivity_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/lottie/
+   - assets/image/
